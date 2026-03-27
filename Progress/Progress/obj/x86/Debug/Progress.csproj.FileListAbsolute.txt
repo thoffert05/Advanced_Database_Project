@@ -1,0 +1,7 @@
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Progress\Progress\bin\x86\Debug\Progress.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Progress\Progress\bin\x86\Debug\Progress.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Progress\Progress\bin\x86\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Progress\Progress\bin\x86\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Progress\Progress\obj\x86\Debug\Progress.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Progress\Progress\obj\x86\Debug\Progress.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Progress\Progress\obj\x86\Debug\Progress.csprojResolveAssemblyReference.cache

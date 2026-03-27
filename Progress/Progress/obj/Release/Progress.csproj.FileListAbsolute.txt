@@ -1,0 +1,9 @@
+C:\Users\Tony\source\repos\Progress\Progress\bin\Release\Progress.dll
+C:\Users\Tony\source\repos\Progress\Progress\bin\Release\Progress.pdb
+C:\Users\Tony\source\repos\Progress\Progress\bin\Release\Microsoft.WindowsAPICodePack.dll
+C:\Users\Tony\source\repos\Progress\Progress\bin\Release\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Tony\source\repos\Progress\Progress\obj\Release\Progress.csproj.AssemblyReference.cache
+C:\Users\Tony\source\repos\Progress\Progress\obj\Release\Progress.csproj.CoreCompileInputs.cache
+C:\Users\Tony\source\repos\Progress\Progress\obj\Release\Progress.csproj.Up2Date
+C:\Users\Tony\source\repos\Progress\Progress\obj\Release\Progress.dll
+C:\Users\Tony\source\repos\Progress\Progress\obj\Release\Progress.pdb
