@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOAA_Downloader", "NOAA_Downloader.csproj", "{8C08A291-685F-41A2-891A-53DF29A2D1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progress", "..\Progress\Progress\Progress.csproj", "{0B8F22F6-67BB-4E6A-BF0B-58792398C1C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C08A291-685F-41A2-891A-53DF29A2D1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C08A291-685F-41A2-891A-53DF29A2D1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C08A291-685F-41A2-891A-53DF29A2D1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C08A291-685F-41A2-891A-53DF29A2D1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8F22F6-67BB-4E6A-BF0B-58792398C1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8F22F6-67BB-4E6A-BF0B-58792398C1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8F22F6-67BB-4E6A-BF0B-58792398C1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8F22F6-67BB-4E6A-BF0B-58792398C1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EB7CD3F-0352-4B10-85D6-E3F3ECF2122E}
+	EndGlobalSection
+EndGlobal
