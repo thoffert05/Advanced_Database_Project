@@ -1,0 +1,61 @@
+c:\users\hoffert\documents\visual studio 2015\Projects\Logger\bin\Debug\Logger.dll
+c:\users\hoffert\documents\visual studio 2015\Projects\Logger\bin\Debug\Logger.pdb
+c:\users\hoffert\documents\visual studio 2015\Projects\Logger\obj\Debug\Logger.Log_Viewer.resources
+c:\users\hoffert\documents\visual studio 2015\Projects\Logger\obj\Debug\Logger.csproj.GenerateResource.Cache
+c:\users\hoffert\documents\visual studio 2015\Projects\Logger\obj\Debug\Logger.dll
+c:\users\hoffert\documents\visual studio 2015\Projects\Logger\obj\Debug\Logger.pdb
+F:\Work\Logger\bin\Debug\Logger.dll
+F:\Work\Logger\bin\Debug\Logger.pdb
+F:\Work\Logger\obj\Debug\Logger.Log_Viewer.resources
+F:\Work\Logger\obj\Debug\Logger.csproj.GenerateResource.cache
+F:\Work\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+F:\Work\Logger\obj\Debug\Logger.dll
+F:\Work\Logger\obj\Debug\Logger.pdb
+F:\Work\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+D:\F\Work\Logger\bin\Debug\Logger.dll
+D:\F\Work\Logger\bin\Debug\Logger.pdb
+D:\F\Work\Logger\obj\Debug\Logger.Log_Viewer.resources
+D:\F\Work\Logger\obj\Debug\Logger.csproj.GenerateResource.cache
+D:\F\Work\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\F\Work\Logger\obj\Debug\Logger.dll
+D:\F\Work\Logger\obj\Debug\Logger.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\F\Work\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+D:\F\Work\Repos\Logger\bin\Debug\Logger.dll
+D:\F\Work\Repos\Logger\bin\Debug\Logger.pdb
+D:\F\Work\Repos\Logger\obj\Debug\Logger.Log_Viewer.resources
+D:\F\Work\Repos\Logger\obj\Debug\Logger.csproj.GenerateResource.cache
+D:\F\Work\Repos\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\F\Work\Repos\Logger\obj\Debug\Logger.dll
+D:\F\Work\Repos\Logger\obj\Debug\Logger.pdb
+D:\F\Work\Repos\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+C:\Users\Tony\source\repos\Logger\bin\Debug\Logger.dll
+C:\Users\Tony\source\repos\Logger\bin\Debug\Logger.pdb
+C:\Users\Tony\source\repos\Logger\bin\Debug\CommonCore.dll
+C:\Users\Tony\source\repos\Logger\bin\Debug\Settings_Handler.dll
+C:\Users\Tony\source\repos\Logger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tony\source\repos\Logger\bin\Debug\CommonCore.pdb
+C:\Users\Tony\source\repos\Logger\bin\Debug\Settings_Handler.pdb
+C:\Users\Tony\source\repos\Logger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tony\source\repos\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+C:\Users\Tony\source\repos\Logger\obj\Debug\Logger.Log_Viewer.resources
+C:\Users\Tony\source\repos\Logger\obj\Debug\Logger.csproj.GenerateResource.cache
+C:\Users\Tony\source\repos\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+C:\Users\Tony\source\repos\Logger\obj\Debug\Logger.csproj.Up2Date
+C:\Users\Tony\source\repos\Logger\obj\Debug\Logger.dll
+C:\Users\Tony\source\repos\Logger\obj\Debug\Logger.pdb
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\Logger.dll
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\Logger.pdb
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\CommonCore.dll
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\Settings_Handler.dll
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\CommonCore.pdb
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\Settings_Handler.pdb
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\obj\Debug\Logger.csproj.AssemblyReference.cache
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\obj\Debug\Logger.Log_Viewer.resources
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\obj\Debug\Logger.csproj.GenerateResource.cache
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\obj\Debug\Logger.csproj.Up2Date
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\obj\Debug\Logger.dll
+C:\Users\Anthony\Desktop\temp\work\REPOS\Logger\obj\Debug\Logger.pdb

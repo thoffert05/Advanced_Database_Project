@@ -1,0 +1,7 @@
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\bin\x86\Debug\Logger.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\bin\x86\Debug\Logger.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\x86\Debug\Logger.Log_Viewer.resources
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\x86\Debug\Logger.csproj.GenerateResource.Cache
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\x86\Debug\Logger.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\x86\Debug\Logger.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\x86\Debug\Logger.csprojResolveAssemblyReference.cache

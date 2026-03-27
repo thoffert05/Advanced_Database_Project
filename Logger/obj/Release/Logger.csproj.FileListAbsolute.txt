@@ -1,0 +1,22 @@
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\bin\Release\Logger.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\bin\Release\Logger.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\Release\Logger.csprojResolveAssemblyReference.cache
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\Release\Logger.Log_Viewer.resources
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\Release\Logger.csproj.GenerateResource.Cache
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\Release\Logger.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\Logger\obj\Release\Logger.pdb
+C:\Users\Tony\source\repos\Logger\bin\Release\Logger.dll
+C:\Users\Tony\source\repos\Logger\bin\Release\Logger.pdb
+C:\Users\Tony\source\repos\Logger\bin\Release\CommonCore.dll
+C:\Users\Tony\source\repos\Logger\bin\Release\Settings_Handler.dll
+C:\Users\Tony\source\repos\Logger\bin\Release\Newtonsoft.Json.dll
+C:\Users\Tony\source\repos\Logger\bin\Release\CommonCore.pdb
+C:\Users\Tony\source\repos\Logger\bin\Release\Settings_Handler.pdb
+C:\Users\Tony\source\repos\Logger\bin\Release\Newtonsoft.Json.xml
+C:\Users\Tony\source\repos\Logger\obj\Release\Logger.csproj.AssemblyReference.cache
+C:\Users\Tony\source\repos\Logger\obj\Release\Logger.Log_Viewer.resources
+C:\Users\Tony\source\repos\Logger\obj\Release\Logger.csproj.GenerateResource.cache
+C:\Users\Tony\source\repos\Logger\obj\Release\Logger.csproj.CoreCompileInputs.cache
+C:\Users\Tony\source\repos\Logger\obj\Release\Logger.csproj.Up2Date
+C:\Users\Tony\source\repos\Logger\obj\Release\Logger.dll
+C:\Users\Tony\source\repos\Logger\obj\Release\Logger.pdb
