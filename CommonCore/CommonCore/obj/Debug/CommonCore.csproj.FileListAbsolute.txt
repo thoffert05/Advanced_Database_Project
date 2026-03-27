@@ -1,0 +1,40 @@
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\CommonCore\CommonCore\bin\Debug\CommonCore.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\CommonCore\CommonCore\bin\Debug\CommonCore.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\CommonCore\CommonCore\obj\Debug\CommonCore.dll
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\CommonCore\CommonCore\obj\Debug\CommonCore.pdb
+F:\Work\CommonCore\CommonCore\bin\Debug\CommonCore.dll
+F:\Work\CommonCore\CommonCore\bin\Debug\CommonCore.pdb
+F:\Work\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.CoreCompileInputs.cache
+F:\Work\CommonCore\CommonCore\obj\Debug\CommonCore.dll
+F:\Work\CommonCore\CommonCore\obj\Debug\CommonCore.pdb
+C:\Users\hoffert\Documents\Visual Studio 2015\Projects\CommonCore\CommonCore\obj\Debug\CommonCore.csprojResolveAssemblyReference.cache
+D:\F\Work\CommonCore\CommonCore\bin\Debug\CommonCore.dll
+D:\F\Work\CommonCore\CommonCore\bin\Debug\CommonCore.pdb
+D:\F\Work\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.CoreCompileInputs.cache
+D:\F\Work\CommonCore\CommonCore\obj\Debug\CommonCore.dll
+D:\F\Work\CommonCore\CommonCore\obj\Debug\CommonCore.pdb
+D:\F\Work\CommonCore\CommonCore\obj\Debug\CommonCore.csprojAssemblyReference.cache
+D:\F\Work\Repos\CommonCore\CommonCore\bin\Debug\CommonCore.dll
+D:\F\Work\Repos\CommonCore\CommonCore\bin\Debug\CommonCore.pdb
+D:\F\Work\Repos\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.CoreCompileInputs.cache
+D:\F\Work\Repos\CommonCore\CommonCore\obj\Debug\CommonCore.dll
+D:\F\Work\Repos\CommonCore\CommonCore\obj\Debug\CommonCore.pdb
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Debug\CommonCore.dll
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Debug\CommonCore.pdb
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.AssemblyReference.cache
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.CoreCompileInputs.cache
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.Up2Date
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Debug\CommonCore.dll
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Debug\CommonCore.pdb
+D:\WORK\REPOS\CommonCore\CommonCore\bin\Debug\CommonCore.dll
+D:\WORK\REPOS\CommonCore\CommonCore\bin\Debug\CommonCore.pdb
+D:\WORK\REPOS\CommonCore\CommonCore\bin\Debug\Newtonsoft.Json.dll
+D:\WORK\REPOS\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.AssemblyReference.cache
+D:\WORK\REPOS\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.CoreCompileInputs.cache
+D:\WORK\REPOS\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.Up2Date
+D:\WORK\REPOS\CommonCore\CommonCore\obj\Debug\CommonCore.dll
+D:\WORK\REPOS\CommonCore\CommonCore\obj\Debug\CommonCore.pdb
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Debug\CommonCore.Get_Overwrite_Desire.resources
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Debug\CommonCore.csproj.GenerateResource.cache

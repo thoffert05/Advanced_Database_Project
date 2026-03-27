@@ -1,0 +1,11 @@
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Release\CommonCore.dll
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Release\CommonCore.pdb
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Release\Newtonsoft.Json.dll
+C:\Users\Tony\source\repos\CommonCore\CommonCore\bin\Release\Newtonsoft.Json.xml
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Release\CommonCore.csproj.AssemblyReference.cache
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Release\CommonCore.Get_Overwrite_Desire.resources
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Release\CommonCore.csproj.GenerateResource.cache
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Release\CommonCore.csproj.CoreCompileInputs.cache
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Release\CommonCore.csproj.Up2Date
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Release\CommonCore.dll
+C:\Users\Tony\source\repos\CommonCore\CommonCore\obj\Release\CommonCore.pdb
