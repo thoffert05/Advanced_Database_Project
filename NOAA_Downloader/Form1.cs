@@ -60,6 +60,12 @@ namespace NOAA_Downloader
         /// <param name="e">Not Used</param>
         private void button2_Click(object sender, EventArgs e)
         {
+            //if the destination directory does not exist
+            if (!Directory.Exists(textBox2.Text))
+            {
+                MessageBox.Show("\""+textBox2.Text + "\" does not exist please choose a valid destination directory");
+                return;
+            }
             //get the year from the given URL
             int year = int.Parse(textBox1.Text.Substring(textBox1.Text.LastIndexOf("/")+1));
             //get all files in the destination directory
