@@ -1,4 +1,4 @@
-﻿namespace NOAA_Downloader
+namespace NOAA_Downloader
 {
     partial class Form1
     {
@@ -103,7 +103,7 @@
             button2.Name = "button2";
             button2.Size = new Size(406, 34);
             button2.TabIndex = 5;
-            button2.Text = "Downlaod AIS Files";
+            button2.Text = "Download AIS files";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
