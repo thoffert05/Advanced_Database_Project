@@ -1,0 +1,141 @@
+Ship Name,CruiseLine,DWT,YearBuilt,GT,PassengerCapacity,CrewCount,RiverBoat 
+Symphony of the Seas,Royal Caribbean International,155873,2018,228081,6680,2200,FALSE
+Harmony of the Seas,Royal Caribbean International,120000,2016,226963,5479,2100,FALSE
+Oasis of the Seas,Royal Caribbean International,100000,2009,226838,5406,2150,FALSE
+Allure of the Seas,Royal Caribbean International,100000,2010,225282,5404,2150,FALSE
+Anthem of the Seas,Royal Caribbean International,85000,2015,168666,4905,1500,FALSE
+Ovation of the Seas,Royal Caribbean International,85000,2016,168666,4905,1500,FALSE
+Quantum of the Seas,Royal Caribbean International,85000,2014,168666,4905,1500,FALSE
+Freedom of the Seas,Royal Caribbean International,74000,2006,156271,4375,1360,FALSE
+Liberty of the Seas,Royal Caribbean International,74000,2007,155889,4375,1360,FALSE
+Independence of the Seas,Royal Caribbean International,74000,2008,154407,4375,1360,FALSE
+Navigator of the Seas,Royal Caribbean International,73000,2002,139999,3990,1213,FALSE
+Mariner of the Seas,Royal Caribbean International,73000,2003,139863,3990,1213,FALSE
+Explorer of the Seas,Royal Caribbean International,73000,2000,137308,3990,1180,FALSE
+Adventure of the Seas,Royal Caribbean International,73000,2001,137276,3990,1180,FALSE
+Voyager of the Seas,Royal Caribbean International,73000,1999,137276,3990,1180,FALSE
+Enchantment of the Seas,Royal Caribbean International,38000,1997,82910,2730,840,FALSE
+Grandeur of the Seas,Royal Caribbean International,38000,1996,73817,2440,760,FALSE
+Rhapsody of the Seas,Royal Caribbean International,38000,1997,78491,2435,765,FALSE
+Vision of the Seas,Royal Caribbean International,38000,1998,78340,2435,765,FALSE
+Majesty of the Seas,Royal Caribbean International,25000,1992,73941,2767,820,FALSE
+Empress of the Seas,Royal Caribbean International,20000,1990,48563,1840,650,FALSE
+Norwegian Bliss,Norwegian Cruise Line,120000,2018,168028,4004,1700,FALSE
+Norwegian Joy,Norwegian Cruise Line,120000,2017,167725,3883,1700,FALSE
+Norwegian Escape,Norwegian Cruise Line,106000,2015,164998,4266,1733,FALSE
+Norwegian Getaway,Norwegian Cruise Line,96000,2014,145655,3963,1640,FALSE
+Norwegian Breakaway,Norwegian Cruise Line,96000,2013,145655,3963,1640,FALSE
+Norwegian Epic,Norwegian Cruise Line,130000,2010,155873,4100,1724,FALSE
+Norwegian Pearl,Norwegian Cruise Line,80000,2006,93530,2394,1150,FALSE
+Norwegian Jewel,Norwegian Cruise Line,80000,2005,93502,2376,1150,FALSE
+Norwegian Jade,Norwegian Cruise Line,80000,2006,93558,2402,1150,FALSE
+Norwegian Gem,Norwegian Cruise Line,80000,2007,93530,2394,1150,FALSE
+Norwegian Sun,Norwegian Cruise Line,78000,2001,78309,1936,950,FALSE
+Norwegian Sky,Norwegian Cruise Line,50000,1999,77104,2004,934,FALSE
+Norwegian Spirit,Norwegian Cruise Line,50000,1998,75904,2018,930,FALSE
+Norwegian Star,Norwegian Cruise Line,91000,2001,91740,2348,1030,FALSE
+Norwegian Dawn,Norwegian Cruise Line,91000,2002,92250,2340,1030,FALSE
+Carnival Vista,Carnival Cruise Line,96000,2016,133500,3934,1450,FALSE
+Carnival Horizon,Carnival Cruise Line,96000,2018,133500,3960,1450,FALSE
+Carnival Panorama,Carnival Cruise Line,96000,2019,133500,4008,1450,FALSE
+Carnival Breeze,Carnival Cruise Line,70000,2012,130000,3690,1386,FALSE
+Carnival Magic,Carnival Cruise Line,70000,2011,130000,3690,1386,FALSE
+Carnival Dream,Carnival Cruise Line,70000,2009,130000,3646,1367,FALSE
+Carnival Mardi Gras,Carnival Cruise Line,140000,2019,180000,5282,1745,FALSE
+Carnival Freedom,Carnival Cruise Line,65000,2007,110000,2980,1150,FALSE
+Carnival Liberty,Carnival Cruise Line,65000,2005,110000,2974,1150,FALSE
+Carnival Valor,Carnival Cruise Line,65000,2004,110000,2974,1150,FALSE
+Carnival Glory,Carnival Cruise Line,65000,2003,110000,2980,1150,FALSE
+Carnival Conquest,Carnival Cruise Line,65000,2002,110000,2974,1150,FALSE
+Carnival Splendor,Carnival Cruise Line,70000,2008,113300,3012,1150,FALSE
+Carnival Miracle,Carnival Cruise Line,47000,2004,88500,2124,934,FALSE
+Carnival Legend,Carnival Cruise Line,47000,2002,88500,2124,930,FALSE
+Carnival Pride,Carnival Cruise Line,47000,2001,88500,2124,930,FALSE
+Carnival Spirit,Carnival Cruise Line,47000,2001,88500,2124,930,FALSE
+Carnival Elation,Carnival Cruise Line,30000,1998,70367,2130,920,FALSE
+Carnival Paradise,Carnival Cruise Line,30000,1998,70367,2130,920,FALSE
+Carnival Imagination,Carnival Cruise Line,30000,1995,70367,2056,920,FALSE
+Carnival Inspiration,Carnival Cruise Line,30000,1996,70367,2056,920,FALSE
+Carnival Fascination,Carnival Cruise Line,30000,1994,70367,2056,920,FALSE
+Carnival Sensation,Carnival Cruise Line,30000,1993,70367,2056,920,FALSE
+Carnival Ecstasy,Carnival Cruise Line,30000,1991,70367,2056,920,FALSE
+Carnival Fantasy,Carnival Cruise Line,30000,1990,70367,2056,920,FALSE
+Regal Princess,Princess Cruises,56000,2014,142714,3560,1350,FALSE
+Royal Princess,Princess Cruises,56000,2013,142714,3560,1350,FALSE
+Majestic Princess,Princess Cruises,56000,2017,144216,3560,1350,FALSE
+Sky Princess,Princess Cruises,56000,2019,145281,3660,1350,FALSE
+Caribbean Princess,Princess Cruises,67000,2004,112894,3140,1200,FALSE
+Crown Princess,Princess Cruises,67000,2006,113561,3080,1200,FALSE
+Emerald Princess,Princess Cruises,67000,2007,113561,3080,1200,FALSE
+Ruby Princess,Princess Cruises,67000,2008,113561,3080,1200,FALSE
+Grand Princess,Princess Cruises,54000,1998,107517,2600,1150,FALSE
+Star Princess,Princess Cruises,54000,2002,108977,2590,1150,FALSE
+Golden Princess,Princess Cruises,54000,2001,108865,2590,1150,FALSE
+Island Princess,Princess Cruises,32000,2003,91627,2200,900,FALSE
+Coral Princess,Princess Cruises,32000,2002,91627,2000,900,FALSE
+Pacific Princess,Princess Cruises,20000,1999,30277,670,375,FALSE
+Disney Dream,Disney Cruise Line,85000,2011,129690,4000,1458,FALSE
+Disney Fantasy,Disney Cruise Line,85000,2012,129690,4000,1458,FALSE
+Disney Magic,Disney Cruise Line,45000,1998,83338,2700,950,FALSE
+Disney Wonder,Disney Cruise Line,45000,1999,83308,2700,950,FALSE
+MSC Seaside,MSC Cruises,69000,2017,153516,5179,1413,FALSE
+MSC Seaview,MSC Cruises,69000,2018,153516,5179,1413,FALSE
+MSC Divina,MSC Cruises,54000,2012,139072,4345,1388,FALSE
+MSC Meraviglia,MSC Cruises,70000,2017,171598,4500,1536,FALSE
+MSC Armonia,MSC Cruises,25000,2001,65542,2520,760,FALSE
+MSC Opera,MSC Cruises,25000,2004,65591,2579,728,FALSE
+MSC Lirica,MSC Cruises,25000,2003,65591,2679,721,FALSE
+MSC Sinfonia,MSC Cruises,25000,2002,65591,2679,721,FALSE
+Celebrity Edge,Celebrity Cruises,80000,2018,129500,2918,1320,FALSE
+Celebrity Reflection,Celebrity Cruises,65000,2012,125366,3046,1250,FALSE
+Celebrity Silhouette,Celebrity Cruises,65000,2011,122210,2850,1230,FALSE
+Celebrity Eclipse,Celebrity Cruises,65000,2010,121878,2850,1230,FALSE
+Celebrity Equinox,Celebrity Cruises,65000,2009,121878,2850,1230,FALSE
+Celebrity Solstice,Celebrity Cruises,65000,2008,121878,2850,1230,FALSE
+Celebrity Summit,Celebrity Cruises,50000,2001,90940,2158,999,FALSE
+Celebrity Millennium,Celebrity Cruises,50000,2000,90940,2158,999,FALSE
+Celebrity Infinity,Celebrity Cruises,50000,2001,90940,2158,999,FALSE
+Celebrity Constellation,Celebrity Cruises,50000,2002,90940,2158,999,FALSE
+Azamara Journey,Azamara,14000,2000,30277,694,390,FALSE
+Azamara Quest,Azamara,14000,2000,30277,694,390,FALSE
+Azamara Pursuit,Azamara,14000,2001,30277,694,390,FALSE
+Seven Seas Explorer,Regent Seven Seas Cruises,15000,2016,55254,750,542,FALSE
+Seven Seas Voyager,Regent Seven Seas Cruises,15000,2003,42363,698,447,FALSE
+Seven Seas Mariner,Regent Seven Seas Cruises,15000,2001,48075,700,445,FALSE
+Seven Seas Navigator,Regent Seven Seas Cruises,10000,1999,28803,490,345,FALSE
+Oceania Marina,Oceania Cruises,15000,2011,66084,1250,800,FALSE
+Oceania Riviera,Oceania Cruises,15000,2012,66084,1250,800,FALSE
+Oceania Regatta,Oceania Cruises,10000,1998,30277,684,400,FALSE
+Oceania Insignia,Oceania Cruises,10000,1998,30277,684,400,FALSE
+Oceania Nautica,Oceania Cruises,10000,2000,30277,684,400,FALSE
+Oceania Sirena,Oceania Cruises,10000,1999,30277,684,400,FALSE
+Koningsdam,Holland America Line,40000,2016,99500,2650,1036,FALSE
+Nieuw Statendam,Holland America Line,40000,2018,99500,2666,1036,FALSE
+Eurodam,Holland America Line,35000,2008,86273,2104,929,FALSE
+Nieuw Amsterdam,Holland America Line,35000,2010,86273,2106,929,FALSE
+Westerdam,Holland America Line,30000,2004,82348,1916,817,FALSE
+Oosterdam,Holland America Line,30000,2003,82305,1916,817,FALSE
+Noordam,Holland America Line,30000,2006,82318,1972,820,FALSE
+Zuiderdam,Holland America Line,30000,2002,82305,1972,820,FALSE
+Volendam,Holland America Line,20000,1999,61214,1432,647,FALSE
+Zaandam,Holland America Line,20000,2000,61214,1432,647,FALSE
+Veendam,Holland America Line,20000,1996,57092,1350,580,FALSE
+Rotterdam,Holland America Line,28000,1997,61849,1404,600,FALSE
+Maasdam,Holland America Line,20000,1993,55575,1258,557,FALSE
+American Queen,American Queen Voyages,3800,1995,3707,436,160,TRUE
+American Duchess,American Queen Voyages,1500,2017,3400,166,80,TRUE
+American Empress,American Queen Voyages,2500,2003,3600,223,84,TRUE
+American Countess,American Queen Voyages,2500,2010,3600,245,84,TRUE
+American Harmony,American Cruise Lines,1200,2019,4000,190,60,TRUE
+American Song,American Cruise Lines,1200,2018,4000,190,60,TRUE
+American Pride,American Cruise Lines,1000,2012,2800,150,50,TRUE
+Queen of the Mississippi,American Cruise Lines,1000,2015,2800,150,50,TRUE
+American Constellation,American Cruise Lines,1200,2017,4000,175,60,TRUE
+American Spirit,American Cruise Lines,900,2005,2700,100,40,TRUE
+American Star,American Cruise Lines,900,2007,2700,100,40,TRUE
+American Independence,American Cruise Lines,900,2010,2700,100,40,TRUE
+Victory I,Victory Cruise Lines,800,2001,4954,202,80,TRUE
+Victory II,Victory Cruise Lines,800,2004,4954,202,80,TRUE
+Ocean Navigator,American Queen Voyages,900,2001,4954,202,80,TRUE
+Ocean Voyager,American Queen Voyages,900,2001,4954,202,80,TRUE
+Pearl Mist,Pearl Seas Cruises,1500,2014,6100,210,70,TRUE
