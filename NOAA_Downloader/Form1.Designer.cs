@@ -103,7 +103,7 @@
             button2.Name = "button2";
             button2.Size = new Size(406, 34);
             button2.TabIndex = 5;
-            button2.Text = "Get Needed File List";
+            button2.Text = "Downlaod AIS Files";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
