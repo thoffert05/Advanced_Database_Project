@@ -41,8 +41,9 @@ ais_df = ais_df.withColumn(
 #add the date to each row as metadate so that it can be partitioned later for easy range searches
 ais_df = ais_df.withColumn(
     "date",
-    to_date(col("BaseDateTime"))
+    to_date(col("BaseDateTime"), "yyyy-MM-dd'T'HH:mm:ss")
 )
+
 
 print("====================================COMPUTING PER-SHIP DAILY AGGREGATES====================================")
 #this generates the daily average and daily maximum momentum for each ship to be used for analytics later
