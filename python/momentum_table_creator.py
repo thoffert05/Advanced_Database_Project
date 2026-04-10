@@ -40,8 +40,8 @@ ais_df = ais_df.withColumn(
 )
 #add the date to each row as metadate so that it can be partitioned later for easy range searches
 ais_df = ais_df.withColumn(
-    "date",
-    to_date(col("BaseDateTime"), "yyyy-MM-dd'T'HH:mm:ss")
+    "event_date",
+    col("BaseDateTime").cast("date")
 )
 
 
@@ -51,7 +51,7 @@ print("====================================COMPUTING PER-SHIP DAILY AGGREGATES==
 
 #group by date and by MMSI which is unique per ship in a separate dataframe as this is unique
 ship_daily = ais_df.groupBy(
-    "date", "IMO"
+    "event_date", "IMO"
 #this will add 2 new columns just for this row one for the ship average momentum and one for the ship max 
 #momentum and a row_type column the row will not have a momentum column like the raw ship rows have.
 #this is OK since this is just read by the java dashboard 
@@ -75,7 +75,7 @@ print("====================================COMPUTING PER-CRUISELINE DAILY AGGREG
 #this is the daily average and maximum momentum for a cruiseline
 #group by date and the cruise line for the cruise line stats in a separate dataframe as this is unique
 cruiseline_daily = ais_df.groupBy(
-    "date", "CruiseLine"
+    "event_date", "CruiseLine"
 #this will add 2 new columns just for this row one for the cruiseline average momentum and one for the  
 #cruiseline maximum momentum and a row_type column the row will not have a momentum column like the raw ship 
 #rows have. this is OK since this is just read by the java dashboard
@@ -89,7 +89,7 @@ print("====================================COMPUTING GLOBAL DAILY AGGREGATES====
 #this comuputes the daily average momentum and daily maximum momentum
 #group by day this has the day statistics in a separate dataframe as this is unique
 global_daily = ais_df.groupBy(
-    "date"
+    "event_date"
 #this will add 2 new columns just for this row one for the day average momentum and one for the day
 #maximum momentum and a row_type column the row will not have a momentum column like the raw ship 
 #rows have. this is OK since this is just read by the java dashboard
@@ -108,7 +108,7 @@ print("====================================WRITING OUTPUT TABLE=================
 #because at this point we have all AIS stored on here and now it is duplicated for each cruise ship/river 
 #boat, though this second set is much smaller saving it this way confirms that there will be plenty of space
 #on the datanode
-final_df.write.mode("overwrite").partitionBy("date").parquet("/data/momentum_daily")
+final_df.write.mode("overwrite").partitionBy("event_date").parquet("/data/momentum_daily")
 #get the end time with the special python clock that only moves forward this is used for elapsed time it
 #ignores VM time changes and only moves forwards
 END = time.monotonic()
