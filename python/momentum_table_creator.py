@@ -11,12 +11,13 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
 from pyspark.sql.functions import to_date
 from pyspark.sql.functions import avg, max as spark_max, lit
-
+from datetime import datetime
 import time
 
-#get initial start time
-START = time.time()
-print(f"Started at {str(START)}")
+#get the end time with the special python clock that only moves forward this is used for elapsed time it
+#ignores VM time changes and only moves forwards
+START = time.monotonic()
+print(f"Started at {datetime.now()}")
 #interface with spark
 spark = SparkSession.builder.appName("Momentum_Calculator").getOrCreate()
 print("====================================READING AIS TABLE====================================")
@@ -85,7 +86,6 @@ cruiseline_daily = ais_df.groupBy(
 )
 print("====================================COMPUTING GLOBAL DAILY AGGREGATES====================================")
 #this comuputes the daily average momentum and daily maximum momentum
-
 #group by day this has the day statistics in a separate dataframe as this is unique
 global_daily = ais_df.groupBy(
     "date"
@@ -108,6 +108,10 @@ print("====================================WRITING OUTPUT TABLE=================
 #boat, though this second set is much smaller saving it this way confirms that there will be plenty of space
 #on the datanode
 final_df.write.mode("overwrite").partitionBy("date").parquet("/data/momentum_daily")
-print(f"Finished at {time.time()}")
+#get the end time with the special python clock that only moves forward this is used for elapsed time it
+#ignores VM time changes and only moves forwards
+END = time.monotonic()
+elapsed = END - START
+print(f"Finished at {datetime.now()} (elapsed {elapsed:.2f} seconds)")
 
 
