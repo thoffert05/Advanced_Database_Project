@@ -354,7 +354,7 @@ def sanitize_csv(bucket_name,filename,hdfs_client,hdfs_path,schema,file_index,to
                          continue
 
                       # Skip rows where all fields are empty/whitespace
-                     if all(field.strip() == "" for field in row):
+                      if all(field.strip() == "" for field in row):
                         continue
                           
                       #try to write the row to the file
