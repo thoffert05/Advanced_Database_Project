@@ -349,6 +349,14 @@ def sanitize_csv(bucket_name,filename,hdfs_client,hdfs_path,schema,file_index,to
                     for row in reader:
                       #increase the number of rows processed for progress
                       rows_read += 1
+                      # Skip completely empty rows as they can crash the join in the momentum calculator
+                      if not row:  
+                         continue
+
+                      # Skip rows where all fields are empty/whitespace
+                     if all(field.strip() == "" for field in row):
+                        continue
+                          
                       #try to write the row to the file
                       try:
                           #if the column has a valid date time stamp this is used to make sure the number of 
