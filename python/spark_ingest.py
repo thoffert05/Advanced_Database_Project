@@ -70,7 +70,7 @@ def create_spark():
         cruise_schema = StructType([
                                    StructField("ShipName", StringType(),True),
                                    StructField("CruiseLine", StringType(),True),
-                                   StructField("IMO", StringType(),True),
+                                   StructField("MMSI", LongType(),True),
                                    StructField("DWT", IntegerType(),True),
                                    StructField("YearBuilt", IntegerType(),True),
                                    StructField("GT", IntegerType(),True),
