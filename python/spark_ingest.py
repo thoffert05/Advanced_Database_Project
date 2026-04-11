@@ -75,7 +75,8 @@ def create_spark():
                                    StructField("YearBuilt", IntegerType(),True),
                                    StructField("GT", IntegerType(),True),
                                    StructField("PassengerCapacity", IntegerType(),True),
-                                   StructField("CrewCount", IntegerType(),True)
+                                   StructField("CrewCount", IntegerType(),True),
+                                   StructField("IMO", LongType(),True)
                                  ])
         #return spark envorinment
         return ais_schema,cruise_schema
