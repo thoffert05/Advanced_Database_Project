@@ -1,93 +1,93 @@
-Ship Name,CruiseLine,MMSI,DWT,YearBuilt,GT,PassengerCapacity,CrewCount,IMO
-Symphony of the Seas,Royal Caribbean International,366614000,155873,2018,228081,6680,2200,9744001
-Harmony of the Seas,Royal Caribbean International,311000396,120000,2016,226963,5479,2100,9682875
-Oasis of the Seas,Royal Caribbean International,311020600,100000,2009,226838,5406,2150,9383936
-Allure of the Seas,Royal Caribbean International,311020700,100000,2010,225282,5404,2150,9383948
-Anthem of the Seas,Royal Caribbean International,311000274,85000,2015,168666,4905,1500,9656101
-Ovation of the Seas,Royal Caribbean International,311000397,85000,2016,168666,4905,1500,9697753
-Pearl Mist,Pearl Seas Cruises,538003543,1500,2014,6100,210,70,9412701
-Freedom of the Seas,Royal Caribbean International,309906000,74000,2006,156271,4375,1360,9304033
-Liberty of the Seas,Royal Caribbean International,309436000,74000,2007,155889,4375,1360,9330032
-Independence of the Seas,Royal Caribbean International,367318000,74000,2008,154407,4375,1360,9281590
-Navigator of the Seas,Royal Caribbean International,316011982,73000,2002,139999,3990,1213,9227508
-Mariner of the Seas,Royal Caribbean International,311493000,73000,2003,139863,3990,1213,9219001
-Explorer of the Seas,Royal Caribbean International,311316000,73000,2000,137308,3990,1180,9161728
-Adventure of the Seas,Royal Caribbean International,366889080,73000,2001,137276,3990,1180,9167227
-Enchantment of the Seas,Royal Caribbean International,311733000,38000,1997,82910,2730,840,9111802
-Grandeur of the Seas,Royal Caribbean International,311315000,38000,1996,73817,2440,760,9102978
-Rhapsody of the Seas,Royal Caribbean International,311805000,38000,1997,78491,2435,765,9070474
-Vision of the Seas,Royal Caribbean International,311321000,38000,1998,78340,2435,765,9116876
-Majesty of the Seas,Royal Caribbean International,311734000,25000,1992,73941,2767,820,8819512
-Empress of the Seas,Royal Caribbean International,311000515,20000,1990,48563,1840,650,8701291
-Norwegian Bliss,Norwegian Cruise Line,338115691,120000,2018,168028,4004,1700,9731160
-Norwegian Joy,Norwegian Cruise Line,311000599,120000,2017,167725,3883,1700,9703796
-Norwegian Escape,Norwegian Cruise Line,311000341,106000,2015,164998,4266,1733,9677076
-Norwegian Getaway,Norwegian Cruise Line,311050900,96000,2014,145655,3963,1640,9606924
-Norwegian Breakaway,Norwegian Cruise Line,311050800,96000,2013,145655,3963,1640,9606912
-Norwegian Epic,Norwegian Cruise Line,311018500,130000,2010,155873,4100,1724,9410569
-Norwegian Pearl,Norwegian Cruise Line,309653000,80000,2006,93530,2394,1150,9342281
-Norwegian Jewel,Norwegian Cruise Line,311827000,80000,2005,93502,2376,1150,9304045
-Norwegian Jade,Norwegian Cruise Line,308416000,80000,2006,93558,2402,1150,9304057
-Norwegian Gem,Norwegian Cruise Line,309951000,80000,2007,93530,2394,1150,9355738
-Norwegian Sun,Norwegian Cruise Line,311109000,78000,2001,78309,1936,950,9218137
-Norwegian Sky,Norwegian Cruise Line,308865000,50000,1999,77104,2004,934,9128532
-Norwegian Star,Norwegian Cruise Line,311082000,91000,2001,91740,2348,1030,9195157
-Norwegian Dawn,Norwegian Cruise Line,311307000,91000,2002,92250,2340,1030,9195169
-Carnival Vista,Carnival Cruise Line,356883000,96000,2016,133500,3934,1450,9692569
-Carnival Horizon,Carnival Cruise Line,983700391,96000,2018,133500,3960,1450,9767091
-Carnival Breeze,Carnival Cruise Line,354842000,70000,2012,130000,3690,1386,9555723
-Carnival Magic,Carnival Cruise Line,370491000,70000,2011,130000,3690,1386,9378486
-Carnival Dream,Carnival Cruise Line,370490000,70000,2009,130000,3646,1367,9378474
-Carnival Freedom,Carnival Cruise Line,371154000,65000,2007,110000,2980,1150,9333149
-Carnival Liberty,Carnival Cruise Line,371083000,65000,2005,110000,2974,1150,9278181
-Carnival Valor,Carnival Cruise Line,354298000,65000,2004,110000,2974,1150,9236389
-Carnival Glory,Carnival Cruise Line,357659000,65000,2003,110000,2980,1150,9198367
-Carnival Conquest,Carnival Cruise Line,357657000,65000,2002,110000,2974,1150,9198355
-Carnival Splendor,Carnival Cruise Line,372808000,70000,2008,113300,3012,1150,9333163
-Carnival Miracle,Carnival Cruise Line,354277000,47000,2004,88500,2124,934,9237357
-Carnival Legend,Carnival Cruise Line,229857000,47000,2002,88500,2124,930,9224726
-Carnival Pride,Carnival Cruise Line,354215000,47000,2001,88500,2124,930,9223954
-Carnival Spirit,Carnival Cruise Line,366984350,47000,2001,88500,2124,930,9188647
-Carnival Elation,Carnival Cruise Line,355831000,30000,1998,70367,2130,920,9118721
-Carnival Paradise,Carnival Cruise Line,355833000,30000,1998,70367,2130,920,9120877
-Carnival Imagination,Carnival Cruise Line,309933000,30000,1995,70367,2056,920,9053878
-Carnival Inspiration,Carnival Cruise Line,309484000,30000,1996,70367,2056,920,9087489
-Carnival Fascination,Carnival Cruise Line,309682000,30000,1994,70367,2056,920,9041253
-Carnival Sensation,Carnival Cruise Line,309697000,30000,1993,70367,2056,920,8918135
-Carnival Ecstasy,Carnival Cruise Line,353479000,30000,1991,70367,2056,920,8711344
-Carnival Fantasy,Carnival Cruise Line,353486000,30000,1990,70367,2056,920,8700773
-Regal Princess,Princess Cruises,310674000,56000,2014,142714,3560,1350,9584720
-Royal Princess,Princess Cruises,367420280,56000,2013,142714,3560,1350,9584732
-Caribbean Princess,Princess Cruises,310423000,67000,2004,112894,3140,1200,9215490
-Crown Princess,Princess Cruises,310500000,67000,2006,113561,3080,1200,9290442
-Emerald Princess,Princess Cruises,367063030,67000,2007,113561,3080,1200,9333151
-Ruby Princess,Princess Cruises,310567000,67000,2008,113561,3080,1200,9378462
-Grand Princess,Princess Cruises,310327000,54000,1998,107517,2600,1150,9104005
-Island Princess,Princess Cruises,367331570,32000,2003,91627,2200,900,9225909
-Coral Princess,Princess Cruises,310376000,32000,2002,91627,2000,900,9226906
-Disney Dream,Disney Cruise Line,311042900,85000,2011,129690,4000,1458,9445590
-Disney Fantasy,Disney Cruise Line,311058700,85000,2012,129690,4000,1458,9445617
-Disney Magic,Disney Cruise Line,308516000,45000,1998,83338,2700,950,9126807
-Disney Wonder,Disney Cruise Line,308457000,45000,1999,83308,2700,950,9126819
-Celebrity Edge,Celebrity Cruises,982481325,80000,2018,129500,2918,1320,9812705
-Celebrity Reflection,Celebrity Cruises,229074000,65000,2012,125366,3046,1250,9506459
-Celebrity Silhouette,Celebrity Cruises,248939000,65000,2011,122210,2850,1230,9451094
-Celebrity Eclipse,Celebrity Cruises,249666000,65000,2010,121878,2850,1230,9404314
-Celebrity Equinox,Celebrity Cruises,249667000,65000,2009,121878,2850,1230,9372456
-Celebrity Solstice,Celebrity Cruises,249409000,65000,2008,121878,2850,1230,9362530
-Celebrity Summit,Celebrity Cruises,249047000,50000,2001,90940,2158,999,9192387
-Celebrity Infinity,Celebrity Cruises,249048000,50000,2001,90940,2158,999,9189421
-Seven Seas Navigator,Regent Seven Seas Cruises,311050600,10000,1999,28803,490,345,9064126
-Oceania Marina,Oceania Cruises,367466760,15000,2011,66084,1250,800,9438066
-Oceania Riviera,Oceania Cruises,367380250,15000,2012,66084,1250,800,9438078
-Koningsdam,Holland America Line,244830547,40000,2016,99500,2650,1036,9696559
-Statendam,Holland America Line,366993250,40000,2018,99500,2666,1036,9817133
-Eurodam,Holland America Line,245206000,35000,2008,86273,2104,929,9378448
-Nieuw Amsterdam,Holland America Line,246648000,35000,2010,86273,2106,929,9378450
-Westerdam,Holland America Line,244128000,30000,2004,82348,1916,817,9226891
-Oosterdam,Holland America Line,245417000,30000,2003,82305,1916,817,9221281
-Noordam,Holland America Line,246028000,30000,2006,82318,1972,820,9230115
-Zuiderdam,Holland America Line,245304000,30000,2002,82305,1972,820,9221279
-Veendam,Holland America Line,246506000,20000,1996,57092,1350,580,9102992
-Rotterdam,Holland America Line,246167000,28000,1997,61849,1404,600,9122552
-Maasdam,Holland America Line,244958000,20000,1993,55575,1258,557,8919257
+Ship Name,CruiseLine,MMSI,DWT,YearBuilt,GT,PassengerCapacity,CrewCount
+Symphony of the Seas,Royal Caribbean International,366614000,155873,2018,228081,6680,2200
+Harmony of the Seas,Royal Caribbean International,311000396,120000,2016,226963,5479,2100
+Oasis of the Seas,Royal Caribbean International,311020600,100000,2009,226838,5406,2150
+Allure of the Seas,Royal Caribbean International,311020700,100000,2010,225282,5404,2150
+Anthem of the Seas,Royal Caribbean International,311000274,85000,2015,168666,4905,1500
+Ovation of the Seas,Royal Caribbean International,311000397,85000,2016,168666,4905,1500
+Pearl Mist,Pearl Seas Cruises,538003543,1500,2014,6100,210,70
+Freedom of the Seas,Royal Caribbean International,309906000,74000,2006,156271,4375,1360
+Liberty of the Seas,Royal Caribbean International,309436000,74000,2007,155889,4375,1360
+Independence of the Seas,Royal Caribbean International,367318000,74000,2008,154407,4375,1360
+Navigator of the Seas,Royal Caribbean International,316011982,73000,2002,139999,3990,1213
+Mariner of the Seas,Royal Caribbean International,311493000,73000,2003,139863,3990,1213
+Explorer of the Seas,Royal Caribbean International,311316000,73000,2000,137308,3990,1180
+Adventure of the Seas,Royal Caribbean International,366889080,73000,2001,137276,3990,1180
+Enchantment of the Seas,Royal Caribbean International,311733000,38000,1997,82910,2730,840
+Grandeur of the Seas,Royal Caribbean International,311315000,38000,1996,73817,2440,760
+Rhapsody of the Seas,Royal Caribbean International,311805000,38000,1997,78491,2435,765
+Vision of the Seas,Royal Caribbean International,311321000,38000,1998,78340,2435,765
+Majesty of the Seas,Royal Caribbean International,311734000,25000,1992,73941,2767,820
+Empress of the Seas,Royal Caribbean International,311000515,20000,1990,48563,1840,650
+Norwegian Bliss,Norwegian Cruise Line,338115691,120000,2018,168028,4004,1700
+Norwegian Joy,Norwegian Cruise Line,311000599,120000,2017,167725,3883,1700
+Norwegian Escape,Norwegian Cruise Line,311000341,106000,2015,164998,4266,1733
+Norwegian Getaway,Norwegian Cruise Line,311050900,96000,2014,145655,3963,1640
+Norwegian Breakaway,Norwegian Cruise Line,311050800,96000,2013,145655,3963,1640
+Norwegian Epic,Norwegian Cruise Line,311018500,130000,2010,155873,4100,1724
+Norwegian Pearl,Norwegian Cruise Line,309653000,80000,2006,93530,2394,1150
+Norwegian Jewel,Norwegian Cruise Line,311827000,80000,2005,93502,2376,1150
+Norwegian Jade,Norwegian Cruise Line,308416000,80000,2006,93558,2402,1150
+Norwegian Gem,Norwegian Cruise Line,309951000,80000,2007,93530,2394,1150
+Norwegian Sun,Norwegian Cruise Line,311109000,78000,2001,78309,1936,950
+Norwegian Sky,Norwegian Cruise Line,308865000,50000,1999,77104,2004,934
+Norwegian Star,Norwegian Cruise Line,311082000,91000,2001,91740,2348,1030
+Norwegian Dawn,Norwegian Cruise Line,311307000,91000,2002,92250,2340,1030
+Carnival Vista,Carnival Cruise Line,356883000,96000,2016,133500,3934,1450
+Carnival Horizon,Carnival Cruise Line,983700391,96000,2018,133500,3960,1450
+Carnival Breeze,Carnival Cruise Line,354842000,70000,2012,130000,3690,1386
+Carnival Magic,Carnival Cruise Line,370491000,70000,2011,130000,3690,1386
+Carnival Dream,Carnival Cruise Line,370490000,70000,2009,130000,3646,1367
+Carnival Freedom,Carnival Cruise Line,371154000,65000,2007,110000,2980,1150
+Carnival Liberty,Carnival Cruise Line,371083000,65000,2005,110000,2974,1150
+Carnival Valor,Carnival Cruise Line,354298000,65000,2004,110000,2974,1150
+Carnival Glory,Carnival Cruise Line,357659000,65000,2003,110000,2980,1150
+Carnival Conquest,Carnival Cruise Line,357657000,65000,2002,110000,2974,1150
+Carnival Splendor,Carnival Cruise Line,372808000,70000,2008,113300,3012,1150
+Carnival Miracle,Carnival Cruise Line,354277000,47000,2004,88500,2124,934
+Carnival Legend,Carnival Cruise Line,229857000,47000,2002,88500,2124,930
+Carnival Pride,Carnival Cruise Line,354215000,47000,2001,88500,2124,930
+Carnival Spirit,Carnival Cruise Line,366984350,47000,2001,88500,2124,930
+Carnival Elation,Carnival Cruise Line,355831000,30000,1998,70367,2130,920
+Carnival Paradise,Carnival Cruise Line,355833000,30000,1998,70367,2130,920
+Carnival Imagination,Carnival Cruise Line,309933000,30000,1995,70367,2056,920
+Carnival Inspiration,Carnival Cruise Line,309484000,30000,1996,70367,2056,920
+Carnival Fascination,Carnival Cruise Line,309682000,30000,1994,70367,2056,920
+Carnival Sensation,Carnival Cruise Line,309697000,30000,1993,70367,2056,920
+Carnival Ecstasy,Carnival Cruise Line,353479000,30000,1991,70367,2056,920
+Carnival Fantasy,Carnival Cruise Line,353486000,30000,1990,70367,2056,920
+Regal Princess,Princess Cruises,310674000,56000,2014,142714,3560,1350
+Royal Princess,Princess Cruises,367420280,56000,2013,142714,3560,1350
+Caribbean Princess,Princess Cruises,310423000,67000,2004,112894,3140,1200
+Crown Princess,Princess Cruises,310500000,67000,2006,113561,3080,1200
+Emerald Princess,Princess Cruises,367063030,67000,2007,113561,3080,1200
+Ruby Princess,Princess Cruises,310567000,67000,2008,113561,3080,1200
+Grand Princess,Princess Cruises,310327000,54000,1998,107517,2600,1150
+Island Princess,Princess Cruises,367331570,32000,2003,91627,2200,900
+Coral Princess,Princess Cruises,310376000,32000,2002,91627,2000,900
+Disney Dream,Disney Cruise Line,311042900,85000,2011,129690,4000,1458
+Disney Fantasy,Disney Cruise Line,311058700,85000,2012,129690,4000,1458
+Disney Magic,Disney Cruise Line,308516000,45000,1998,83338,2700,950
+Disney Wonder,Disney Cruise Line,308457000,45000,1999,83308,2700,950
+Celebrity Edge,Celebrity Cruises,982481325,80000,2018,129500,2918,1320
+Celebrity Reflection,Celebrity Cruises,229074000,65000,2012,125366,3046,1250
+Celebrity Silhouette,Celebrity Cruises,248939000,65000,2011,122210,2850,1230
+Celebrity Eclipse,Celebrity Cruises,249666000,65000,2010,121878,2850,1230
+Celebrity Equinox,Celebrity Cruises,249667000,65000,2009,121878,2850,1230
+Celebrity Solstice,Celebrity Cruises,249409000,65000,2008,121878,2850,1230
+Celebrity Summit,Celebrity Cruises,249047000,50000,2001,90940,2158,999
+Celebrity Infinity,Celebrity Cruises,249048000,50000,2001,90940,2158,999
+Seven Seas Navigator,Regent Seven Seas Cruises,311050600,10000,1999,28803,490,345
+Oceania Marina,Oceania Cruises,367466760,15000,2011,66084,1250,800
+Oceania Riviera,Oceania Cruises,367380250,15000,2012,66084,1250,800
+Koningsdam,Holland America Line,244830547,40000,2016,99500,2650,1036
+Statendam,Holland America Line,366993250,40000,2018,99500,2666,1036
+Eurodam,Holland America Line,245206000,35000,2008,86273,2104,929
+Nieuw Amsterdam,Holland America Line,246648000,35000,2010,86273,2106,929
+Westerdam,Holland America Line,244128000,30000,2004,82348,1916,817
+Oosterdam,Holland America Line,245417000,30000,2003,82305,1916,817
+Noordam,Holland America Line,246028000,30000,2006,82318,1972,820
+Zuiderdam,Holland America Line,245304000,30000,2002,82305,1972,820
+Veendam,Holland America Line,246506000,20000,1996,57092,1350,580
+Rotterdam,Holland America Line,246167000,28000,1997,61849,1404,600
+Maasdam,Holland America Line,244958000,20000,1993,55575,1258,557
