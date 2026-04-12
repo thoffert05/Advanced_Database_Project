@@ -20,16 +20,17 @@ START = time.monotonic()
 print(f"Started at {datetime.now()}")
 #interface with spark
 spark = SparkSession.builder.appName("Momentum_Calculator").getOrCreate()
-print("====================================READING AIS TABLE====================================")
-#load daily AIS data
-ais_df = spark.read.parquet("/data/ais")
 print("====================================READING CRUISE TABLE====================================")
 #load cruiseship and riverboat stat data which contains ship sizes
 cruise_df = spark.read.parquet("/data/cruise")
+print("====================================READING AIS TABLE====================================")
+#load daily AIS data and remove lines which have no datetime as they are not valid and that is such
+#a small percentage it does not really matter
+ais_df = spark.read.parquet("/data/ais").filter(col("BaseDateTime").isNotNull())
 print("====================================FILTERING AIS TABLE====================================")
 #this filters the AIS table to just store the lines for the cruise ships/river boats we care about reducing
 #it to about 106 boats from probable 100,000 boats in the full dataset
-ais_df = ais_df.join(cruise_df, on="IMO", how="inner")
+ais_df = ais_df.join(cruise_df, on="MMSI", how="inner")
 print("====================================COMPUTING MOMENTUM FOR EACH SHIP====================================")
 #add a momentum column and compute the momentum on each line, by multiplying the speed multiplied by 
 #0.514444 to go from knotts to meters per secont multiply it by the mass which is multiplied by 1000 to 
@@ -43,7 +44,8 @@ ais_df = ais_df.withColumn(
     "event_date",
     col("BaseDateTime").cast("date")
 )
-
+print("====================================Saving MOMENTUM FOR EACH SHIP====================================")
+ais_df.write.mode("overwrite").partitionBy("event_date").parquet("/data/momentum_raw")
 
 print("====================================COMPUTING PER-SHIP DAILY AGGREGATES====================================")
 #this generates the daily average and daily maximum momentum for each ship to be used for analytics later
@@ -51,7 +53,7 @@ print("====================================COMPUTING PER-SHIP DAILY AGGREGATES==
 
 #group by date and by MMSI which is unique per ship in a separate dataframe as this is unique
 ship_daily = ais_df.groupBy(
-    "event_date", "IMO"
+    "event_date", "MMSI"
 #this will add 2 new columns just for this row one for the ship average momentum and one for the ship max 
 #momentum and a row_type column the row will not have a momentum column like the raw ship rows have.
 #this is OK since this is just read by the java dashboard 
@@ -63,8 +65,8 @@ ship_daily = ais_df.groupBy(
 )
 #add the ship stats to the column
 ship_daily = ship_daily.join(
-    cruise_df.select("IMO", "ShipName", "CruiseLine", "DWT","GT", "PassengerCapacity", "CrewCount"),
-    on="IMO",
+    cruise_df.select("MMSI", "ShipName", "CruiseLine", "DWT","GT", "PassengerCapacity", "CrewCount"),
+    on="MMSI",
     how="left"
 ).withColumn(
     "row_type", lit("ship_daily")
@@ -87,6 +89,7 @@ cruiseline_daily = ais_df.groupBy(
 )
 print("====================================COMPUTING GLOBAL DAILY AGGREGATES====================================")
 #this comuputes the daily average momentum and daily maximum momentum
+
 #group by day this has the day statistics in a separate dataframe as this is unique
 global_daily = ais_df.groupBy(
     "event_date"
@@ -108,11 +111,10 @@ print("====================================WRITING OUTPUT TABLE=================
 #because at this point we have all AIS stored on here and now it is duplicated for each cruise ship/river 
 #boat, though this second set is much smaller saving it this way confirms that there will be plenty of space
 #on the datanode
-final_df.write.mode("overwrite").partitionBy("event_date").parquet("/data/momentum_daily")
+final_df.write.mode("overwrite").partitionBy("event_date").parquet("/data/summary_momentum_daily")
 #get the end time with the special python clock that only moves forward this is used for elapsed time it
 #ignores VM time changes and only moves forwards
 END = time.monotonic()
 elapsed = END - START
 print(f"Finished at {datetime.now()} (elapsed {elapsed:.2f} seconds)")
-
 
