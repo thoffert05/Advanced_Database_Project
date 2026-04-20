@@ -38,18 +38,28 @@
   function sortLineBy(k) { lineSortKey === k ? lineSortDir = -lineSortDir : (lineSortKey = k, lineSortDir = -1); }
 
   // ── Data loading 
-  async function loadData() {
-    const text = await (await fetch('/cruise_status.csv')).text();
-    const [hdr, ...rows] = text.trim().split('\n');
-    const h = hdr.split(',').map(x => x.trim());
-    ships = rows.map(row => {
-      const v = row.split(',');
-      const o = Object.fromEntries(h.map((k, i) => [k, v[i]?.trim()]));
-      const s = { ...o, DWT:+o.DWT, GT:+o.GT, YearBuilt:+o.YearBuilt, PassengerCapacity:+o.PassengerCapacity, CrewCount:+o.CrewCount, Speed:+o.Speed, IsRiver: o.RiverBoat === 'TRUE' };
-      s.momentum = s.Speed * s.DWT * 1000;
-      return s;
-    });
-  }
+async function loadData() {
+  const res = await fetch('http://34.145.122.102:8000/ship');
+  const data = await res.json();
+
+  ships = data.map(s => ({
+    ...s,
+
+    // Normalize field names to match your UI expectations
+    ['Ship Name']: s.ShipName,   // your UI expects this exact key
+
+    // Ensure numeric fields are numbers
+    DWT: +s.DWT,
+    GT: +s.GT,
+    YearBuilt: +s.YearBuilt,
+    PassengerCapacity: +s.PassengerCapacity,
+    CrewCount: +s.CrewCount,
+
+    // Derived fields
+    Speed: 1,                    // your JSON has no Speed; set placeholder
+    momentum: (+s.DWT) * 1 * 1000
+  }));
+}
   onMount(loadData);
 
   // ── Reactive: fleet 
