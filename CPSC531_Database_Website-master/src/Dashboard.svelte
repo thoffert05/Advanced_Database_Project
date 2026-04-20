@@ -42,22 +42,19 @@ async function loadData() {
   const res = await fetch('http://34.145.122.102:8000/ship');
   const data = await res.json();
 
+  // Build cruise line list dynamically
+  LINES = ['All', ...new Set(data.map(s => s.CruiseLine))];
+
   ships = data.map(s => ({
     ...s,
-
-    // Normalize field names to match your UI expectations
-    ['Ship Name']: s.ShipName,   // your UI expects this exact key
-
-    // Ensure numeric fields are numbers
+    ['Ship Name']: s.ShipName,
     DWT: +s.DWT,
     GT: +s.GT,
     YearBuilt: +s.YearBuilt,
     PassengerCapacity: +s.PassengerCapacity,
     CrewCount: +s.CrewCount,
-
-    // Derived fields
-    Speed: 1,                    // your JSON has no Speed; set placeholder
-    momentum: (+s.DWT) * 1 * 1000
+    Speed: 1,
+    momentum: (+s.DWT) * 1000
   }));
 }
   onMount(loadData);
