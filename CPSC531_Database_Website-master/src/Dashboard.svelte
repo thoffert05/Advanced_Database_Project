@@ -39,7 +39,7 @@
 
   // ── Data loading 
 async function loadData() {
-  const res = await fetch('api/ship');
+  const res = await fetch('/api/ship');
   const data = await res.json();
 
   // Build cruise line list dynamically
