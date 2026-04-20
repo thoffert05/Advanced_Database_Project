@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
 
   // ── Constants 
-  let LINES = ['All'];
+  let LINES = [];
   const COLORS = {'Royal Caribbean International':'#003087','Carnival Cruise Line':'#e31837','Norwegian Cruise Line':'#00205b','Princess Cruises':'#4169a0','Celebrity Cruises':'#1b3a6b','Holland America Line':'#4a6e8e','MSC Cruises':'#003399','Disney Cruise Line':'#1a237e','Oceania Cruises':'#8B4513','Regent Seven Seas Cruises':'#4a0080','Azamara':'#c8860a','American Queen Voyages':'#8b0000','American Cruise Lines':'#006400','Victory Cruise Lines':'#2e4057','Pearl Seas Cruises':'#1a6e8e'};
   const SHIP_COLS = [['Ship Name','Ship Name'],['CruiseLine','Line'],['YearBuilt','Built'],['GT','GT'],['PassengerCapacity','Pax'],['CrewCount','Crew'],['DWT','DWT'],['Speed','Kts'],['momentum','Momentum']];
   const LINE_COLS = [['CruiseLine','Cruise Line'],['shipCount','Ships'],['totalPax','Total Pax'],['totalCrew','Crew'],['avgYear','Avg Built'],['totalDWT','Total DWT'],['totalMomentum','Momentum']];
