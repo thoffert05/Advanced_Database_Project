@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
 
   // ── Constants 
-  let LINES = ['All','Royal Caribbean International','Carnival Cruise Line','Norwegian Cruise Line','Princess Cruises','Celebrity Cruises','Holland America Line','MSC Cruises','Disney Cruise Line','Oceania Cruises','Regent Seven Seas Cruises','Azamara','American Queen Voyages','American Cruise Lines','Victory Cruise Lines','Pearl Seas Cruises'];
+  let LINES = ['All'];
   const COLORS = {'Royal Caribbean International':'#003087','Carnival Cruise Line':'#e31837','Norwegian Cruise Line':'#00205b','Princess Cruises':'#4169a0','Celebrity Cruises':'#1b3a6b','Holland America Line':'#4a6e8e','MSC Cruises':'#003399','Disney Cruise Line':'#1a237e','Oceania Cruises':'#8B4513','Regent Seven Seas Cruises':'#4a0080','Azamara':'#c8860a','American Queen Voyages':'#8b0000','American Cruise Lines':'#006400','Victory Cruise Lines':'#2e4057','Pearl Seas Cruises':'#1a6e8e'};
   const SHIP_COLS = [['Ship Name','Ship Name'],['CruiseLine','Line'],['YearBuilt','Built'],['GT','GT'],['PassengerCapacity','Pax'],['CrewCount','Crew'],['DWT','DWT'],['Speed','Kts'],['momentum','Momentum']];
   const LINE_COLS = [['CruiseLine','Cruise Line'],['shipCount','Ships'],['totalPax','Total Pax'],['totalCrew','Crew'],['avgYear','Avg Built'],['totalDWT','Total DWT'],['totalMomentum','Momentum']];
