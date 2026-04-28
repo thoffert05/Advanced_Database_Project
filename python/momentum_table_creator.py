@@ -34,8 +34,12 @@ cruise_df = cruise_df.select(
 )
 print("===============================READING AIS TABLE==================================================")
 #load daily AIS data and remove lines which have no datetime as they are not valid and that is such
-#a small percentage it does not really matter
-ais_df = spark.read.parquet("/data/ais")
+#a small percentage it does not really matter, remove ships that either have no speed or the speed is
+#anomously high, a cruise ships don't tpyically go beyone 24 knots, some can do up to 32 knots but that is
+#rare so a good cap is at 30 knots. this removes spikes in maximumx
+ais_df = spark.read.parquet("/data/ais").filter(col("BaseDateTime").isNotNull())\
+                                        .filter(col("SOG").isNotNull()) \
+                                        .filter((col("SOG") >= 0) & (col("SOG") <= 30))
 #remove null MMSI rows
 cruise_df = cruise_df.filter(col("MMSI").isNotNull())
 print("===============================FILTERING AIS TABLE================================================")
