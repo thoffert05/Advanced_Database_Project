@@ -147,8 +147,6 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
     #read the days in the range from the summary momentum database
     polars_data_frame = get_dataset(files)
 
-    #duplicate the event_date column for partitioning it is not written to the parquet files anyway
-    polars_data_frame = polars_data_frame.with_columns(pl.col("date").alias("event_date"))
 
     #compute the last day read
     last_date = end
@@ -253,8 +251,7 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
                                   pl.lit(None).alias("cruiseline_avg_momentum"),
                                   pl.lit(None).alias("cruiseline_max_momentum"),
                                   pl.lit(None).alias("global_avg_momentum"),
-                                  pl.lit(None).alias("global_max_momentum"),
-                                  pl.lit(last_date).alias("event_date")
+                                  pl.lit(None).alias("global_max_momentum")
                                  ])
                    .select([
                             "MMSI",
@@ -272,8 +269,7 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
                             "cruiseline_avg_momentum",
                             "cruiseline_max_momentum",
                             "global_avg_momentum",
-                            "global_max_momentum",
-                            "event_date"
+                            "global_max_momentum"
                          ])
                   )
 
@@ -308,8 +304,7 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
                                         pl.col("cruiseline_avg_momentum"),
                                         pl.col("cruiseline_max_momentum"),
                                         pl.lit(None).alias("global_avg_momentum"),
-                                        pl.lit(None).alias("global_max_momentum"),
-                                        pl.lit(last_date).alias("event_date")
+                                        pl.lit(None).alias("global_max_momentum")
                                      ])
                          .select([
                                   "MMSI",
@@ -327,8 +322,7 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
                                   "cruiseline_avg_momentum",
                                   "cruiseline_max_momentum",
                                   "global_avg_momentum",
-                                  "global_max_momentum",
-                                  "event_date"
+                                  "global_max_momentum"
                                ])
                         )
 
@@ -357,8 +351,7 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
                                   pl.lit(None).alias("cruiseline_avg_momentum"),
                                   pl.lit(None).alias("cruiseline_max_momentum"),
                                   pl.col("global_avg_momentum"),
-                                  pl.col("global_max_momentum"),
-                                  pl.lit(last_date).alias("event_date")
+                                  pl.col("global_max_momentum")
                                  ])
                     .select([
                             "MMSI",
@@ -376,8 +369,7 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
                             "cruiseline_avg_momentum",
                             "cruiseline_max_momentum",
                             "global_avg_momentum",
-                            "global_max_momentum",
-                            "event_date"
+                            "global_max_momentum"
                           ])
                    )
 
