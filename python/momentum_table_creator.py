@@ -40,8 +40,7 @@ print("===============================READING AIS TABLE=========================
 ais_df = spark.read.parquet("/data/ais").filter(col("BaseDateTime").isNotNull())\
                                         .filter(col("SOG").isNotNull()) \
                                         .filter((col("SOG") >= 0) & (col("SOG") <= 30))
-#remove null MMSI rows
-cruise_df = cruise_df.filter(col("MMSI").isNotNull())
+
 print("===============================FILTERING AIS TABLE================================================")
 #this filters the AIS table to just store the lines for the cruise ships/river boats we care about reducing
 #it to about 106 boats from probable 100,000 boats in the full dataset
