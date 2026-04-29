@@ -40,13 +40,13 @@ print("===============================READING AIS TABLE=========================
 ais_df = spark.read.parquet("/data/ais").filter(col("BaseDateTime").isNotNull())\
                                         .filter(col("SOG").isNotNull()) \
                                         .filter((col("SOG") >= 0) & (col("SOG") <= 30))
+#remove null MMSI rows
+ais_df = ais_df.filter(col("MMSI").isNotNull())
 
 print("===============================FILTERING AIS TABLE================================================")
 #this filters the AIS table to just store the lines for the cruise ships/river boats we care about reducing
 #it to about 106 boats from probable 100,000 boats in the full dataset
 ais_df = ais_df.join(cruise_df, on="MMSI", how="inner")
-#remove null MMSI rows
-ais_df = ais_df.filter(col("MMSI").isNotNull())
 print("===============================COMPUTING MOMENTUM FOR EACH SHIP===================================")
 #add a momentum column and compute the momentum on each line, by multiplying the speed multiplied by 
 #0.514444 to go from knotts to meters per secont multiply it by the mass which is multiplied by 1000 to 
