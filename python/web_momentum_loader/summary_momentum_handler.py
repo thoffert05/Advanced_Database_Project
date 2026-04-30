@@ -152,8 +152,10 @@ def load_range(start_date: str, end_date: str,ship_name:str| None = None,cruise_
     last_date = end
     #if a cruise line is given
     if cruise_line:
-       #filter just that cruise line
-       polars_data_frame = filter_cruise_line(polars_data_frame,cruise_line)
+       polars_data_frame = polars_data_frame.filter(
+                                                    (pl.col("CruiseLine") == cruise_line) |
+                                                    (pl.col("row_type") == "global_daily")
+                                                   )
     #if a ship is given
     if ship_name:
        #get the cruise line for the ship
