@@ -1,0 +1,16 @@
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\bin\Debug\MMSI cruise ship mapper.exe.config
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\bin\Debug\MMSI cruise ship mapper.exe
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\bin\Debug\MMSI cruise ship mapper.pdb
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI cruise ship mapper.csproj.AssemblyReference.cache
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI_cruise_ship_mapper.Form1.resources
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI_cruise_ship_mapper.Properties.Resources.resources
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI cruise ship mapper.csproj.GenerateResource.cache
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI cruise ship mapper.csproj.CoreCompileInputs.cache
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI cruise ship mapper.exe
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI cruise ship mapper.pdb
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI cruise ship mapper.exe.config
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\bin\Debug\Progress.dll
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\bin\Debug\Progress.pdb
+C:\Users\Anthony\source\repos\MMSI cruise ship mapper\obj\Debug\MMSI cru.33D25246.Up2Date
